@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+    color: inherit
+   }
+
+    .badge {
+        margin-right: 10px;
+    }
+
+    .general-details-container {
+        max-width: 900px; 
+        display: inline-block; 
+        margin-left: 100px;
+    }
+
+    .more-videos-container {
+        display: flex;
+        height: 125px;
+        justify-content: center;
+        align-items: center;
+        background-color: lightgrey;
+    }
+
+    .more-videos-container:hover {
+        filter: brightness(80%);
+    }

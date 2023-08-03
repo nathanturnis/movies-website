@@ -1,0 +1,55 @@
+.movie-img-container img {
+    transition: .2s;
+}
+.movie-img-container:hover img {
+    scale: 1.1;
+    filter: brightness(25%);
+    cursor: pointer;
+}
+
+.movie-img-container{
+    position: relative;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movie-details {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    max-width: 200px;
+    max-height: 340px;
+}
+
+.movie-img-title{
+    opacity: 0;
+    transition: .3s;
+    text-align: left;
+    color: aliceblue;
+    cursor: pointer;    
+}
+
+.movie-img-desc {
+    display: -webkit-box;
+    opacity: 0;
+    padding-top: 20px;
+    transition: .3s;
+    text-align: left;
+    color: aliceblue;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    cursor: pointer;
+}
+
+.movie-img-container:hover .movie-img-title{
+    opacity: 1;
+    scale: 1.1;
+}
+
+.movie-img-container:hover .movie-img-desc{
+    opacity: 1;
+    scale: 1.1;
+}
