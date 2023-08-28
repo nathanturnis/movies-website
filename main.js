@@ -57,7 +57,7 @@ prevPageBtn.onclick = function() {
         moviesByTrending(TREND_URL + `&page=${pageNumber.toString()}`);
     } else if(trendOrSearch === 1) { //if on search
         location.href = '#';
-        searchMovie(movieInput.value, pageNumber.toString());
+        searchMovie(searchParam, pageNumber.toString());
     }
 }
 
